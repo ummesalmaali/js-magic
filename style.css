@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inconsolata", sans-serif;
+  height: 100vh;
+  background: #30336b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.main-heading h2 {
+  margin-bottom: 20px;
+}
+button {
+  display: inline-block;
+  background: #f8b627;
+  columns: #f4f4f4;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 3px;
+  transition: 400mx;
+  text-decoration: none;
+  padding: 10px;
+  z-index: 100000;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
